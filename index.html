@@ -5,18 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap">
+    <style>
+    .body{
+        background-image: linear-gradient(to right,#EFF8FB,#2ECCFA);
+    }
+    .name{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .description{
+        font-style: italic;
+        text-align: justify;
+        font-family: 'Arial', sans-serif;
+        font-weight: 500;
+    }
+    .picture{
+        width: 300px;
+        border-radius: 15%;
+    }
+    .link{
+        text-decoration: none;
+    }
+
+    </style>
 </head>
-<body>
-    <img id="foto1" src="images/Foto André.png" alt="foto André sorrindo" width="300px">
+<body class="body">
+    <img class="picture" id="foto1" src="images/Foto André.png" alt="foto André sorrindo">
 
-    <h1>André Luiz Arnoni Faustino</h1>
+    <h1 class="name">André Luiz Arnoni Faustino</h1>
 
-    <p>Sou do Brasil e atualmente resido na cidade de Piracicaba-SP. Sou um estudante de <em>Desenvolvimento Web</em> (formado e pós-graduado em Administração de Empresas) apaixonado por <strong>tecnologia</strong> e <strong>esportes.</strong></p>
+    <p class="description">Sou do Brasil e atualmente resido na cidade de Piracicaba-SP. Estou concluindo o meu curso superior em Análise e Desenvolvimento de Sistemas (04/2021) e em conjunto faço um curso de Desenvolvimento Web na escola Trybe. Também já sou formado e pós-graduado em Administração de Empresas. Acredito veemente que ambas profissões, tanto na àrea de tecnologia quanto na àrea de negócios, consigam convergir perfeitamente. Sou apaixonado por tecnologia, esportes e música.</p>
 
     <h3>Uma breve lista de algumas habilidades adquiridas no decorrer do tempo:</h3>
 
-    <a href="#hard">- Hard Skills (conhecimento técnico)</a><br><br>
-    <a href="#soft">- Soft Skills (conhecimento comportamental)</a>
+    <a href="#hard" class="link">- Hard Skills (conhecimento técnico)</a><br><br>
+    <a href="#soft" class="link">- Soft Skills (conhecimento comportamental)</a>
 
     <h4 id="hard">Hard Skills:</h4>
         <ul>
@@ -35,11 +59,11 @@
     <li>Determinação em aprender sempre</li>
     <li>Empatia</li>
         </ul>
-    <a href="https://radio.x-team.com/">Link para a rádio online da X-Team (músicas para programar, trabalhar e estudar!)</a>
+    <a href="https://radio.x-team.com/" target="_blank" class="link">Rádio Online X-Team (músicas para programadores)</a>
 
     <br><br>
 
-    <a href="#foto1">Volte ao topo</a>
+    <a href="#foto1" class="link">^ Voltar acima ^</a>
 
     
 </body>
