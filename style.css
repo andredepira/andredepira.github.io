@@ -8,11 +8,11 @@ h1, h3{
 
 .body{
     margin-top: 50px;
-    background-color: black;
+    background-image: linear-gradient(to right, #272727, black);
     color: #a8a8b3;
 }
 .name{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     text-align: center;
 }
 .description{
@@ -25,7 +25,6 @@ h1, h3{
 .picture{
     display: block;
     margin: auto;
-    padding: 11px;
     width: 250px;
     border: 10px solid #00ff00;
     border-radius: 50%;
