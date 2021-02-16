@@ -2,6 +2,10 @@ h1, h3{
     color: #e1e1e6;
 }
 
+#foto1{
+    /* link interno para "voltar ao topo" */
+}
+
 .body{
     margin-top: 50px;
     background-image: linear-gradient(to right, #272727, black);
