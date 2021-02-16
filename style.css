@@ -2,13 +2,17 @@ h1, h3{
     color: #e1e1e6;
 }
 
+#foto1{
+    
+}
+
 .body{
     margin-top: 50px;
-    background-image: linear-gradient(to right,#2f2f33,black);
+    background-color: black;
     color: #a8a8b3;
 }
 .name{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-align: center;
 }
 .description{
@@ -23,7 +27,7 @@ h1, h3{
     margin: auto;
     padding: 11px;
     width: 250px;
-    border: 10px solid #8257e6;
+    border: 10px solid #00ff00;
     border-radius: 50%;
 }
 .link{
@@ -32,9 +36,10 @@ h1, h3{
 }
 
 .button{
+    color: black;
     display: block;
     width: 230px;
-    background-color: #8257e6;
+    background-color: #00ff00;
     padding: 20px 44px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
