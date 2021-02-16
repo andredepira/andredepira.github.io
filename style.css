@@ -1,0 +1,38 @@
+h1, h3{
+    color: #e1e1e6;
+}
+
+.body{
+    background-image: linear-gradient(to right,#2f2f33,black);
+    color: #a8a8b3;
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.description{
+    margin: auto;
+    max-width: 800px;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+}
+.picture{
+    display: block;
+    margin: auto;
+    padding: 11px;
+    width: 300px;
+    border: 10px solid #8257e6;
+    border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button{
+    margin-top: 100px;
+    background-color: #8257e6;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
