@@ -13,17 +13,18 @@ h1, h3{
     text-align: center;
 }
 .description{
-    margin: 8% 17% 80px 0px;
+    text-align: justify;
+    margin: 8% 23% 80px 45px;
     float: right;
     display: block;
-    max-width: 800px;
+    max-width: 850px;
     line-height: 21px;
     font-style: italic;
     font-family: 'Arial', sans-serif;
     font-weight: 600;
 }
 .picture{
-    margin: 50px 0px 2% 21%;
+    margin: 40px 0px 2% 12%;
     padding: 11px;
     float: left;
     display: block;
@@ -43,10 +44,6 @@ h1, h3{
     background-color: #00ff00;
     padding: 20px 44px;
     border-radius: 10px;
-}
-
-.name-descrip{
-    min-width: 900px;
 }
 
 .under-name-descrip{
