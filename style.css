@@ -2,10 +2,6 @@ h1, h3{
     color: #e1e1e6;
 }
 
-#foto1{
-    
-}
-
 .body{
     margin-top: 50px;
     background-image: linear-gradient(to right, #272727, black);
@@ -17,7 +13,7 @@ h1, h3{
     text-align: center;
 }
 .description{
-    margin: 130px 600px 130px 0px;
+    margin: 150px 370px 50px 0px;
     float: right;
     display: block;
     max-width: 800px;
@@ -26,9 +22,10 @@ h1, h3{
     font-weight: 500;
 }
 .picture{
+    margin: 50px 0px 50px 400px;
+    padding: 11px;
     float: left;
     display: block;
-    margin: 50px 20px 10px 50px;
     width: 250px;
     border: 10px solid #00ff00;
     border-radius: 50%;
@@ -58,3 +55,7 @@ h1, h3{
 li:nth-of-type(2n+1){
     font-style: italic;
 }
+
+.header{
+    min-height: 200px;
+}    
