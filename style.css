@@ -12,19 +12,23 @@ h1, h3{
     color: #a8a8b3;
 }
 .name{
+    display: block;
     font-family: 'Montserrat', Arial, sans-serif;
     text-align: center;
 }
 .description{
-    margin: auto;
+    margin: 130px 600px 130px 0px;
+    float: right;
+    display: block;
     max-width: 800px;
     font-style: italic;
     font-family: 'Arial', sans-serif;
     font-weight: 500;
 }
 .picture{
+    float: left;
     display: block;
-    margin: auto;
+    margin: 50px 20px 10px 50px;
     width: 250px;
     border: 10px solid #00ff00;
     border-radius: 50%;
@@ -41,4 +45,16 @@ h1, h3{
     background-color: #00ff00;
     padding: 20px 44px;
     border-radius: 10px;
+}
+
+.name-descrip{
+    min-width: 900px;
+}
+
+.under-name-descrip{
+    clear: both;
+}
+
+li:nth-of-type(2n+1){
+    font-style: italic;
 }
